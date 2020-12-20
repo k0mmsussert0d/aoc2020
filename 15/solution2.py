@@ -16,4 +16,4 @@ if __name__ == '__main__':
     with open('./input1', 'r') as file:
         input = [int(i) for i in file.readline().split(',')]
 
-    print(solve(input, 2020))
+    print(solve(input, 30_000_000))
